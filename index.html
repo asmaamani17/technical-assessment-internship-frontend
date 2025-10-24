@@ -80,7 +80,7 @@
         </div>
     </div>
         <!-- Task 3: Contact Form -->
-             <div class="container mt-5 mb-5" id="contact">
+        <div class="container mt-5 mb-5" id="contact">
         <h2 class="text-center mb-4 text-primary section-heading">Get In Touch</h2>
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
@@ -112,6 +112,57 @@
                 </div>
             </div>
         </div>
+        <!-- Task 4: Modal -->
+            <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="confirmationModalLabel">Message Received!</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <!-- Modal Body - Shows submitted form data -->
+                <div class="modal-body">
+                    <h6 class="text-primary mb-3">Thank you for contacting us. Here's what you sent:</h6>
+                    
+                    <!-- Name Display -->
+                    <div class="mb-2">
+                        <strong>Name:</strong>
+                        <p id="modalName" class="mb-2"></p>
+                    </div>
+                    
+                    <!-- Email Display -->
+                    <div class="mb-2">
+                        <strong>Email:</strong>
+                        <p id="modalEmail" class="mb-2"></p>
+                    </div>
+                    
+                    <!-- Message Display -->
+                    <div class="mb-2">
+                        <strong>Message:</strong>
+                        <p id="modalMessage" class="mb-2"></p>
+                    </div>
+                    
+                    <!-- Confirmation Alert -->
+                    <div class="alert alert-info mt-3" role="alert">
+                        We'll get back to you as soon as possible!
+                    </div>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white text-center p-4 mt-5">
+        <p class="mb-0">&copy; 2025 MyPortfolio. All rights reserved.</p>
+    </footer>
     </div>
     </div>
 </body>
