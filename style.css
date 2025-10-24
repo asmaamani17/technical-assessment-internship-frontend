@@ -32,3 +32,29 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
+/* Task 2: Card Grid Styles */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.3) !important;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #6c757d;
+  line-height: 1.6;
+}
